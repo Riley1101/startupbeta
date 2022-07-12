@@ -7,19 +7,19 @@ import useScrollSnap from "react-use-scroll-snap";
 
 export default function Home() {
   const scrollRef = useRef();
-  // useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
-
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
   return (
     <Container>
-      <div className="snap-y snap-mandatory">
-        <div className="snap-start">
+      <div className="relative snap-y snap-mandatory" ref={scrollRef}>
+        <div>
           <Header></Header>
           <Hero />
         </div>
-        <div className="snap-start">
+        <div>
           <Process />
         </div>
         <div className="bg-blue-200" style={{ height: "100vh" }}></div>
+        <div className="bg-red-200" style={{ height: "100vh" }}></div>
       </div>
     </Container>
   );
