@@ -30,7 +30,7 @@ const Process = () => {
       animate="visible"
       className="flex flex-col py-12 gap-4 md:grid relative w-full  grid-cols-1 mt-4  st-container md:grid-cols-[1fr_1fr] md:py-24 md:py-24 md:gap-y-0 md:gap-12"
     >
-      <motion.div className="md:sticky relative w-full  top-[10%] left-0 z-20 grid grid-cols-2 grid-rows-2 gap-2 transition-all md:col-start-1 aspect-square ">
+      <motion.div className="md:sticky relative w-full md:p-6 top-[10%] left-0 z-20 grid grid-cols-2 grid-rows-2 gap-2 transition-all md:col-start-1 aspect-square ">
         <motion.div
           variants={item}
           className="relative flex items-center justify-end p-0 text-xl font-bold cursor-pointer aspect-square "
@@ -67,66 +67,71 @@ const Process = () => {
           </span>
         </motion.div>
       </motion.div>
-      <motion.div
-        data-aos="zoom-in-up"
-        className="flex  md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
-      >
-        <div>
-          <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
-            Brain Storm
-          </h2>
-          <span className="block text-xl uppercase md:my-2">
-            your solutions
-          </span>
-        </div>
-        <p className="text-sm text-neutral-500 leading-[1.5] md:text-base md:w-[70%]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure
-          deserunt quaerat vitae, incidunt ipsam labore itaque aliquam at natus!
-        </p>
-        <button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
-          Call now !
-        </button>
-      </motion.div>
-      <motion.div
-        data-aos="zoom-in-up"
-        className="flex md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
-      >
-        <div>
-          <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
-            Brain Storm
-          </h2>
-          <span className="block text-xl uppercase md:my-2">
-            your solutions
-          </span>
-        </div>
-        <p className="text-sm text-neutral-500 leading-[1.5] md:text-base md:w-[70%]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure
-          deserunt quaerat vitae, incidunt ipsam labore itaque aliquam at natus!
-        </p>
-        <button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
-          Call now !
-        </button>
-      </motion.div>
-      <motion.div
-        data-aos="zoom-in-up"
-        className="flex md:h-[500px]  flex-col justify-center mt-4 md:mt-0 MD:mb-8 col-start-2 gap-4 md:gap-8"
-      >
-        <div>
-          <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
-            Brain Storm
-          </h2>
-          <span className="block text-xl uppercase md:my-2">
-            your solutions
-          </span>
-        </div>
-        <p className="text-sm text-neutral-500 leading-[1.5] md:text-base md:w-[70%]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure
-          deserunt quaerat vitae, incidunt ipsam labore itaque aliquam at natus!
-        </p>
-        <button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
-          Call now !
-        </button>
-      </motion.div>
+      <div className="flex gap-4 overflow-x-scroll md:contents">
+        <motion.div
+          data-aos="zoom-in-up"
+          className="flex basis-full shrink-0 md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
+        >
+          <div>
+            <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
+              Brain Storm
+            </h2>
+            <span className="block text-xl uppercase md:my-2">
+              your solutions
+            </span>
+          </div>
+          <p className="text-sm text-neutral-500 leading-[1.5] md:text-base md:w-[70%]">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure
+            deserunt quaerat vitae, incidunt ipsam labore itaque aliquam at
+            natus!
+          </p>
+          <button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
+            Call now !
+          </button>
+        </motion.div>
+        <motion.div
+          data-aos="zoom-in-up"
+          className="flex basis-full shrink-0 md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
+        >
+          <div>
+            <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
+              Brain Storm
+            </h2>
+            <span className="block text-xl uppercase md:my-2">
+              your solutions
+            </span>
+          </div>
+          <p className="text-sm text-neutral-500 leading-[1.5] md:text-base md:w-[70%]">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure
+            deserunt quaerat vitae, incidunt ipsam labore itaque aliquam at
+            natus!
+          </p>
+          <button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
+            Call now !
+          </button>
+        </motion.div>
+        <motion.div
+          data-aos="zoom-in-up"
+          className="flex basis-full shrink-0 md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
+        >
+          <div>
+            <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
+              Brain Storm
+            </h2>
+            <span className="block text-xl uppercase md:my-2">
+              your solutions
+            </span>
+          </div>
+          <p className="text-sm text-neutral-500 leading-[1.5] md:text-base md:w-[70%]">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iure
+            deserunt quaerat vitae, incidunt ipsam labore itaque aliquam at
+            natus!
+          </p>
+          <button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
+            Call now !
+          </button>
+        </motion.div>
+      </div>
     </motion.section>
   );
 };
