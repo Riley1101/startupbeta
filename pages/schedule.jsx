@@ -111,14 +111,8 @@ const Schedule = () => {
               />
             </div>
           </div>
-          <motion.button
-            whileHover={{
-              duration: 2,
-              backgroundColor: "#3a3a3a",
-            }}
-            className="border btn border-text-muted "
-          >
-            Submit
+          <motion.button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
+            Send Now
           </motion.button>
         </form>
       </div>

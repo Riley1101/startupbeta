@@ -34,13 +34,7 @@ const Contact = () => {
               <label htmlFor="message">Message</label>
               <textarea className="mb-2 bg-transparent border-none outline-none" />
             </div>
-            <motion.button
-              whileHover={{
-                duration: 2,
-                backgroundColor: "#3a3a3a",
-              }}
-              className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2"
-            >
+            <motion.button className="px-12 mt-4 text-white rounded-full max-w-max btn gradient-btn md:mt-2">
               Send Now
             </motion.button>
           </div>

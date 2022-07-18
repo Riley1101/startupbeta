@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"aos": "^2.3.4",
 		"framer-motion": "^6.4.3",
 		"framer-motion-carousel": "^2.0.1",
 		"next": "12.2.2",

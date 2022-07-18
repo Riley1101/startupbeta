@@ -28,7 +28,7 @@ const Process = () => {
       variants={container}
       initial="hidden"
       animate="visible"
-      className="flex flex-col py-12 gap-4 md:grid relative w-full  grid-cols-1 mt-4  st-container md:grid-cols-[1fr_1fr] md:my-24 md:py-12 md:gap-y-0 md:gap-12"
+      className="flex flex-col py-12 gap-4 md:grid relative w-full  grid-cols-1 mt-4  st-container md:grid-cols-[1fr_1fr] md:py-24 md:py-24 md:gap-y-0 md:gap-12"
     >
       <motion.div className="md:sticky relative w-full  top-[10%] left-0 z-20 grid grid-cols-2 grid-rows-2 gap-2 transition-all md:col-start-1 aspect-square ">
         <motion.div
@@ -59,7 +59,7 @@ const Process = () => {
         </motion.div>
         <motion.div
           variants={item}
-          className="bg-[#316cf4] overflow-hidden aspect-square font-bold p-4 relative text-xl  justify-between  hover:shadow-lg cursor-pointer"
+          className="bg-[#316cf4]  overflow-hidden aspect-square font-bold p-4 relative text-xl  justify-between  hover:shadow-lg cursor-pointer"
         >
           <p>PRDOUCTION</p>
           <span className="absolute bottom-0 text-[8em] right-[-.1em] opacity-60">
@@ -67,7 +67,10 @@ const Process = () => {
           </span>
         </motion.div>
       </motion.div>
-      <motion.div className="flex  md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8">
+      <motion.div
+        data-aos="zoom-in-up"
+        className="flex  md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
+      >
         <div>
           <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
             Brain Storm
@@ -84,7 +87,10 @@ const Process = () => {
           Call now !
         </button>
       </motion.div>
-      <motion.div className="flex md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8">
+      <motion.div
+        data-aos="zoom-in-up"
+        className="flex md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8"
+      >
         <div>
           <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
             Brain Storm
@@ -101,7 +107,10 @@ const Process = () => {
           Call now !
         </button>
       </motion.div>
-      <motion.div className="flex md:h-[500px] flex-col justify-center mt-4 md:mt-0 col-start-2 gap-4 md:gap-8">
+      <motion.div
+        data-aos="zoom-in-up"
+        className="flex md:h-[500px]  flex-col justify-center mt-4 md:mt-0 MD:mb-8 col-start-2 gap-4 md:gap-8"
+      >
         <div>
           <h2 className="font-sans text-3xl lowercase md:text-7xl md:font-bold ">
             Brain Storm
