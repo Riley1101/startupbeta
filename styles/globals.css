@@ -114,3 +114,16 @@
 body {
   overflow-x: hidden;
 }
+
+.glass {
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 0.327) 0%,
+    rgba(86, 157, 239, 0.282) 100%
+  );
+
+  box-shadow: 0 4px 30px rgba(114, 114, 114, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

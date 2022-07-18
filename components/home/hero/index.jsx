@@ -1,5 +1,7 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 const Hero = () => {
+  const router = useRouter();
   return (
     <section className=" md:h-[calc(100vh-5em)] flex md:flex-row flex-col relative">
       <div className=" basis-[50%] my-12  space-y-12 md:justify-between md:space-y-24 md:flex md:flex-col  p-4 md:pl-[10%]">
@@ -11,7 +13,10 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Repellendus, vel.
           </p>
-          <button className=" shadow-md md:absolute md:px-10 md:py-4 md:top-[60%] md:left-[50%]  z-20 max-w-max md:w-full md:w-full animated-btn md:translate-x-[-50%]">
+          <button
+            onClick={() => router.push("/schedule")}
+            className=" shadow-md md:absolute md:px-10 md:py-4 md:top-[60%] md:left-[50%]  z-20 max-w-max md:w-full md:w-full animated-btn md:translate-x-[-50%]"
+          >
             Schedule a meeting
           </button>
         </div>

@@ -3,7 +3,7 @@ import Mouse from "@/components/common/mouse";
 import Head from "next/head";
 const Container = ({ children }) => {
   return (
-    <div className="overflow-hidden font-nuno">
+    <div className=" font-nuno">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -13,8 +13,8 @@ const Container = ({ children }) => {
         ></link>
       </Head>
       <Mouse></Mouse>
-      {/* {children} */}
-      <SmoothScroll>{children}</SmoothScroll>
+      {children}
+      {/* <SmoothScroll>{children}</SmoothScroll> */}
     </div>
   );
 };
