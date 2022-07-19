@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <section className="h-auto st-container md:py-12" id="contactSection">
-      <div className="space-y-4 md:my-4">
-        <h2 className="font-sans text-4xl font-bold md:text-6xl">
-          Contact <br />
-          with us
+      <div className="z-10 row-span-2 my-6 space-y-4 md:my-12">
+        <h2 className="text-4xl font-bold text-black md:text-6xl">
+          Contact us
         </h2>
         <p className="text-xl text-neutral-500">
-          We are a software company based in US.
+          Solution tailored for your bussiness
         </p>
-        <span className="text-[12px] relative after:contents=' ' flex items-center gap-4  after:w-12 after:h-[2px] after:bg-white "></span>
+        <span className="text-[12px] text-black relative after:contents=' ' flex items-center gap-4  after:w-12 after:h-[2px] after:bg-blue-300 ">
+          Our contact number
+        </span>
       </div>
-
       <div className="flex flex-col gap-8 py-4 md:flex-row ">
         <div className="space-y-5 md:basis-[60%] flex">
           <div className="relative w-full space-y-8 md:max-w-[70%] md:my-6 aspect-video md:aspect-auto">
