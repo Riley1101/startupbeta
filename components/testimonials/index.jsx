@@ -22,7 +22,7 @@ const Testimonial = () => {
                 duration: 0.5,
               }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="font-sans text-4xl font-bold leading-loose md:text-6xl"
+              className="font-sans text-4xl font-bold md:text-6xl"
             >
               What our clients have to say about us
             </motion.h2>

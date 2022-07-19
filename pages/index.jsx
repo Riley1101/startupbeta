@@ -1,5 +1,6 @@
+import Services from "@/components/services";
 import Hero from "@/components/home/hero";
-import { useRef, useEffect } from "react";
+import FAQ from "@/components/faq";
 import Container from "@/layout/container";
 import Header from "@/components/common/header";
 import Process from "@/components/home/process";
@@ -11,8 +12,10 @@ export default function Home() {
     <Container>
       <Header></Header>
       <Hero />
+      <Services />
       <Process />
       <Testimonials />
+      <FAQ />
       <Contact />
       <Footer />
     </Container>
